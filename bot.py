@@ -3,6 +3,7 @@ import os
 import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
+import os
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
