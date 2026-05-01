@@ -4,7 +4,7 @@ import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "8515689675:AAFQT6VtB6uR-teeIFSHdoY__mRcCWNwclg"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 user_video = {}
 user_results = {}
